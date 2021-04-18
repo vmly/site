@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://vmly.netlify.app/"
 languageCode = "en-us"
 title = "Personal Site"
 theme = "archie"
