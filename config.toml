@@ -1,6 +1,6 @@
 baseURL = "https://vmly.netlify.app/"
 languageCode = "en-us"
-title = "Personal Site"
+title = "Varun Malyala"
 theme = "archie"
 
 # Code Highlight
@@ -26,6 +26,11 @@ url = "https://github.com/vmly"
 name = "Linkedin"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/varunmalyala/"
+
+[[params.social]]
+name = "Kaggle"
+icon = "link"
+url = "https://www.kaggle.com/varunmalyala"
 
 # Main menu Items
 
