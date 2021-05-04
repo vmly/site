@@ -1,0 +1,26 @@
+table {
+border-collapse: collapse;
+border: 1px solid black;
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+}
+
+th,td {
+padding: 10px;
+}
+
+td {
+text-align: center;
+}
+
+th[scope="col"] {
+background: #000;
+}
+
+tr:nth-child(even) {
+background: #000;
+}
+
+tr:nth-child(odd) {
+background: #111;
+}
