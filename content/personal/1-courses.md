@@ -2,13 +2,14 @@
 title: "Courses - Timeline"
 date: 2020-04-01T02:01:58+05:30
 description: "List of courses in chronological order, Related to ML, Web Development, DevOps, etc"
+url: "/personal/courses"
 tags: [about, courses]
 ---
 
+<link rel="stylesheet" href="../../table.css">
+
 | Year | Course                                                       | Tags                   | Instructor                     | Platform | Link                                                                                             |
 |------|--------------------------------------------------------------|------------------------|--------------------------------|----------|--------------------------------------------------------------------------------------------------|
-|      |                                                              |                        |                                |          |                                                                                                  |
-|      |                                                              |                        |                                |          |                                                                                                  |
 | 2021 | Practical Deep Learning for Coders                           | ML                     |                                | FastAI   | [Link](https://course.fast.ai/)                                                                  |
 | 2021 | Part 2: Deep Learning from the Foundations                   | ML                     |                                | FastAI   | [Link](https://course19.fast.ai/part2 )                                                          |
 | 2021 | Microservices with Node JS and React                         | Microservices          | Stephen Grider                 | Udemy    | [Link](https://www.udemy.com/course/microservices-with-node-js-and-react/)                       |
@@ -38,5 +39,3 @@ tags: [about, courses]
 | 2014 | Machine Learning                                             | ML                     | Andrew NG                      | Coursera | [Link](https://www.coursera.org/learn/machine-learning)                                          |
 | 2014 | Intro to Programming with Matlab                             |                        |                                | Coursera | [Link]()                                                                                         |
 | 2014 | Gamification                                                 |                        | Kevin Werbach                  | Coursera | [Link]()                                                                                         |
-
- 

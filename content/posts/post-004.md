@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Traveling Ultralight"
+title: "A Fresh Start with Machine Learning in 2021"
 date: 2020-03-18T12:13:35+05:30
 description: "Start by getting a small backpack (less than 20 liters) and then just travel with what fits in that."
 ---
@@ -27,4 +27,3 @@ I really love traveling this way, and am more than willing to sacrifice bringing
 By the way, you don’t need much more than this kind of setup even in everyday life.
 
 For more info on this, check out my Ultralight ebook, and my friend Tynan has a great book called Forever Nomad.
-
