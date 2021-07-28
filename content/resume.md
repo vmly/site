@@ -4,7 +4,7 @@ description = "About the Overlords governing this Universe"
 date = "2021-04-19"
 aliases = ["about", "contact"]
 author = "Varun Malyala"
-url: "/resume"
+url = "/resume"
 +++
 
 #### Devloper, Product Manger, Maker
