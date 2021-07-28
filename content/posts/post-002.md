@@ -5,6 +5,53 @@ description: "No more Virtual Machines for Development ! Use WSL2 on Windows for
 tags: [Primer, todo]
 ---
 
+## Common Issues in WSL2 and Workarounds
+
+1. Static IP
+
+- IP Changes everytime Windows is restarted
+- Check using ipconfig on powershell
+
+2. WSL genrates host address everytime
+- Avoid this by creating wsl.conf
+- Add IP from ipconfig as a hostname [resolv.conf]
+
+3. Time out of Sync
+
+sudo apt install ntpdate
+sudo ntpdate -sb time.nist.gov
+
+4. WSL Networking Problems
+
+- Accessing Windows apps from WSL (Ingress)
+- Accessing WSL Apps from Windows (Egress)
+
+- Port Forwarding with Firewall rules, adding listeners
+- Creating a Windows service to manage this
+
+5. Accessing MongoDB on WSL 
+
+- Ip Bind to 0.0.0.0  in mongo.cfg and restart the service
+
+6. Docker using WSL2
+
+- Setting up Docker with WSL2
+- Using Docker command in WSL2, Windows
+- Enable Kubernetes on Docker with Minikube
+
+7. Setting up VScode with WSL2
+
+- pyenv version resolve (different versions of python on WSL and Windows .python_version file)
+- Installing VSCode Server on WSL2
+
+8. Setting up Git
+
+- Use Windows Credential Manager with WSL2
+- Setting up SSH Keys
+
+9. Setting up Google Cloud SDK
+
+
 You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.
 
 It all keeps piling up, and it can feel overwhelming.
