@@ -3,3 +3,6 @@
   url = https://github.com/athul/archie.git
 
   
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde.git
