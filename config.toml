@@ -1,7 +1,7 @@
 baseURL = "https://fourducks.ml/"
 languageCode = "en-us"
 title = "Varun Malyala"
-theme = "archie"
+theme = "hyde"
 
 # Code Highlight
 pygmentsstyle = "monokai"
