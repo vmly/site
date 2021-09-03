@@ -14,7 +14,7 @@ paginate=5 # articles per page
 	mode="auto" # color-mode → light,dark or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	subtitle = "Generalist Developer <br> Product Manager"
-#    customcss = ["table.css"]
+  # customcss = ["table.css"]
 
 [markup]
   [markup.goldmark]
@@ -22,6 +22,8 @@ paginate=5 # articles per page
       unsafe = true
 
 # Social Tags
+
+
 
 [[params.social]]
 name = "GitHub"
@@ -38,29 +40,11 @@ name = "Kaggle"
 icon = "link"
 url = "https://www.kaggle.com/varunmalyala"
 
-# Main menu Items
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
-
-[[menu.main]]
-name = "Resume"
-url = "/resume"
-weight = 5
+[Menus]
+  main = [
+      {Name = "All posts", URL = "/posts"},
+      {Name = "About", URL = "/about"},
+      {Name = "Resume", URL = "https://docs.google.com/document/d/12GwNmNI5WDyB4iR471M18ILKA4KDMhEKDc58x2I6M6g/edit?usp=sharing"},
+      {Name = "Github", URL = "https://github.com/vmly/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/varunmalyala/"}
+  ]

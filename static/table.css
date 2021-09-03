@@ -16,15 +16,6 @@ text-align: center;
 th[scope="col"] {
 background: #000;
 }
-
-tr:nth-child(even) {
-background: #202124;
-}
-
-tr:nth-child(odd) {
-background: #080808;
-}
-
 .content {
     margin-bottom: 4em;
     margin-left: auto;

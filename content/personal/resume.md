@@ -1,8 +1,8 @@
 +++
-title = "About"
+title = "Resume"
 description = "About the Overlords governing this Universe"
 date = "2021-04-19"
-aliases = ["about", "contact"]
+aliases = ["resume", "contact"]
 author = "Varun Malyala"
 url = "/resume"
 +++
